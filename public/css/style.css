@@ -1,0 +1,26 @@
+
+
+#background_img{
+    position: absolute;
+
+}
+
+
+
+.navbar-brand-470{
+    display: none;
+}
+
+@media screen and (max-width: 470px) {
+    .navbar-brand{
+        display: none;
+    }
+
+    .navbar-brand-470{
+        font-size: 1.5rem;
+        color: black;
+        display: inline-block;
+    }
+   
+}
+

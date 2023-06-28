@@ -21,17 +21,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/public/css/style.css" />
   </head>
   <body>
     <div class="container-fluid">
       <!-- Barra de navegación -->
-      <div class="row d-flex justify-content-center">
+      <div class="row mb-4 d-flex justify-content-center">
         <div class="col-12">
           <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"
                 >Calcula el presupuesto de tu pagina web</a
               >
+              <a class="navbar-brand-470" href="#">Calculadora</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -56,13 +58,20 @@
       </div>
 
       <!-- Formulario  -->
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-6 col-12 mt-5">
+      <div
+        class="row w-50 justify-content-center"
+        style="
+          background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+          float: none;
+          margin: 0 auto;
+        "
+      >
+        <div class="col-md-8 col-12 mt-5">
           <form id="formulario">
             <!-- Valor por hora -->
             <div class="row mb-3 d-flex justify-content-center">
               <!-- Valor por hora -->
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="form-outline mb-4">
                   <input
                     type="number"
@@ -158,6 +167,7 @@
         </div>
       </div>
     </div>
+
     <!-- MDB -->
     <script
       type="text/javascript"
